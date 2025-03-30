@@ -1,2 +1,2 @@
-require("crypt")
-require("crypt.packer")
+require("config.lazy")
+require("lazy").setup("plugins")

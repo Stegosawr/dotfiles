@@ -1,0 +1,4 @@
+#!/bin/sh
+someblocks -p | dwlb -status-stdin all &
+exec dbus-run-session dwl -s "dwlb"
+#pkill -f "someblock"

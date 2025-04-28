@@ -1,4 +1,6 @@
 #!/bin/sh
+wlr-randr --output DP-2 --off
+wlr-randr --output HDMI-A-1 --pos 0,0 --output DP-1 --pos 2560,0
 someblocks -p | dwlb -status-stdin all &
 exec dbus-run-session dwl -s "dwlb"
 #pkill -f "someblock"

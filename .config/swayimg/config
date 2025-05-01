@@ -1,0 +1,6 @@
+[viewer]
+# Window background color (RGBA)
+window = #808080
+[gallery]
+# Background color of the window (RGBA)
+window = #808080
